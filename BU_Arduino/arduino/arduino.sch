@@ -1007,6 +1007,182 @@ F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/86525044200
 $EndComp
 Text Label 2700 6750 2    60   ~ 0
 VIN
+Text Label 4050 5500 1    60   ~ 0
+5
+Text Label 4300 5500 1    60   ~ 0
+15
+Text Label 4400 5500 1    60   ~ 0
+23
+Text Label 4500 5500 1    60   ~ 0
+35
+Text Label 4600 5500 1    60   ~ 0
+43
+Text Label 4600 5800 1    60   ~ 0
+AGND
+$Comp
+L C C20
+U 1 1 5B2C0A5E
+P 4200 1200
+F 0 "C20" H 4225 1300 50  0000 L CNN
+F 1 "100nF" H 4225 1100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4238 1050 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 4200 1200 50  0001 C CNN
+	1    4200 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C21
+U 1 1 5B2C0B64
+P 4300 1450
+F 0 "C21" H 4325 1550 50  0000 L CNN
+F 1 "100nF" H 4325 1350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4338 1300 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 4300 1450 50  0001 C CNN
+	1    4300 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C22
+U 1 1 5B2C0C68
+P 4700 1350
+F 0 "C22" H 4725 1450 50  0000 L CNN
+F 1 "100nF" H 4725 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4738 1200 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 4700 1350 50  0001 C CNN
+	1    4700 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C23
+U 1 1 5B2C1034
+P 5050 1600
+F 0 "C23" H 5075 1700 50  0000 L CNN
+F 1 "100nF" H 5075 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 1450 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 5050 1600 50  0001 C CNN
+	1    5050 1600
+	0    1    1    0   
+$EndComp
+Text Label 4450 1300 1    60   ~ 0
+15
+Text Label 4450 1700 1    60   ~ 0
+35
+Text Label 4850 1500 1    60   ~ 0
+23
+Text Label 5200 1750 1    60   ~ 0
+43
+$Comp
+L GND #PWR027
+U 1 1 5B2C32CE
+P 5200 1500
+F 0 "#PWR027" H 5200 1250 50  0001 C CNN
+F 1 "GND" H 5200 1350 50  0000 C CNN
+F 2 "" H 5200 1500 50  0001 C CNN
+F 3 "" H 5200 1500 50  0001 C CNN
+	1    5200 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5B2C33C2
+P 4850 1200
+F 0 "#PWR028" H 4850 950 50  0001 C CNN
+F 1 "GND" H 4850 1050 50  0000 C CNN
+F 2 "" H 4850 1200 50  0001 C CNN
+F 3 "" H 4850 1200 50  0001 C CNN
+	1    4850 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5B2C3526
+P 4450 1100
+F 0 "#PWR029" H 4450 850 50  0001 C CNN
+F 1 "GND" H 4450 950 50  0000 C CNN
+F 2 "" H 4450 1100 50  0001 C CNN
+F 3 "" H 4450 1100 50  0001 C CNN
+	1    4450 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5B2C361A
+P 4550 1500
+F 0 "#PWR030" H 4550 1250 50  0001 C CNN
+F 1 "GND" H 4550 1350 50  0000 C CNN
+F 2 "" H 4550 1500 50  0001 C CNN
+F 3 "" H 4550 1500 50  0001 C CNN
+	1    4550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR031
+U 1 1 5B2C370E
+P 4050 1100
+F 0 "#PWR031" H 4050 950 50  0001 C CNN
+F 1 "+5V" H 4050 1240 50  0000 C CNN
+F 2 "" H 4050 1100 50  0001 C CNN
+F 3 "" H 4050 1100 50  0001 C CNN
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR032
+U 1 1 5B2C3802
+P 4150 1400
+F 0 "#PWR032" H 4150 1250 50  0001 C CNN
+F 1 "+5V" H 4150 1540 50  0000 C CNN
+F 2 "" H 4150 1400 50  0001 C CNN
+F 3 "" H 4150 1400 50  0001 C CNN
+	1    4150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR033
+U 1 1 5B2C38F6
+P 4550 1250
+F 0 "#PWR033" H 4550 1100 50  0001 C CNN
+F 1 "+5V" H 4550 1390 50  0000 C CNN
+F 2 "" H 4550 1250 50  0001 C CNN
+F 3 "" H 4550 1250 50  0001 C CNN
+	1    4550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR034
+U 1 1 5B2C39EA
+P 5000 1450
+F 0 "#PWR034" H 5000 1300 50  0001 C CNN
+F 1 "+5V" H 5000 1590 50  0000 C CNN
+F 2 "" H 5000 1450 50  0001 C CNN
+F 3 "" H 5000 1450 50  0001 C CNN
+	1    5000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C10
+U 1 1 5B2C4676
+P 3750 1600
+F 0 "C10" H 3775 1700 50  0000 L CNN
+F 1 "100nF" H 3775 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 1450 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 3750 1600 50  0001 C CNN
+	1    3750 1600
+	0    1    1    0   
+$EndComp
+Text Label 3600 1800 1    60   ~ 0
+5
+$Comp
+L GND #PWR035
+U 1 1 5B2C4F06
+P 3600 1450
+F 0 "#PWR035" H 3600 1200 50  0001 C CNN
+F 1 "GND" H 3600 1300 50  0000 C CNN
+F 2 "" H 3600 1450 50  0001 C CNN
+F 3 "" H 3600 1450 50  0001 C CNN
+	1    3600 1450
+	-1   0    0    1   
+$EndComp
 $Comp
 L ATMEGA32U4-AU U2
 U 1 1 5B27E9A7
@@ -1018,16 +1194,8 @@ F 3 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4-A
 	1    4450 3550
 	1    0    0    -1  
 $EndComp
-Text Label 4050 5500 1    60   ~ 0
-5
-Text Label 4300 5500 1    60   ~ 0
-15
-Text Label 4400 5500 1    60   ~ 0
-23
-Text Label 4500 5500 1    60   ~ 0
-35
-Text Label 4600 5500 1    60   ~ 0
-43
+Text Label 3296 3800 2    60   ~ 0
+AREF
 Wire Wire Line
 	5550 4200 6400 4200
 Wire Wire Line
@@ -1123,8 +1291,6 @@ Wire Wire Line
 	3200 4900 3300 4900
 Connection ~ 3300 5200
 Connection ~ 3100 5000
-Wire Wire Line
-	3300 4400 3300 3800
 Wire Wire Line
 	3300 3800 2900 3800
 Wire Wire Line
@@ -1448,52 +1614,6 @@ Wire Wire Line
 	4500 5150 4500 5500
 Wire Wire Line
 	4600 5150 4600 5800
-Text Label 4600 5800 1    60   ~ 0
-AGND
-$Comp
-L C C20
-U 1 1 5B2C0A5E
-P 4200 1200
-F 0 "C20" H 4225 1300 50  0000 L CNN
-F 1 "100nF" H 4225 1100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4238 1050 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 4200 1200 50  0001 C CNN
-	1    4200 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L C C21
-U 1 1 5B2C0B64
-P 4300 1450
-F 0 "C21" H 4325 1550 50  0000 L CNN
-F 1 "100nF" H 4325 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4338 1300 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 4300 1450 50  0001 C CNN
-	1    4300 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L C C22
-U 1 1 5B2C0C68
-P 4700 1350
-F 0 "C22" H 4725 1450 50  0000 L CNN
-F 1 "100nF" H 4725 1250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4738 1200 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 4700 1350 50  0001 C CNN
-	1    4700 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L C C23
-U 1 1 5B2C1034
-P 5050 1600
-F 0 "C23" H 5075 1700 50  0000 L CNN
-F 1 "100nF" H 5075 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 1450 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 5050 1600 50  0001 C CNN
-	1    5050 1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4250 1750 4250 1650
 Wire Wire Line
@@ -1540,113 +1660,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 1500 5200 1750
 Connection ~ 5200 1600
-Text Label 4450 1300 1    60   ~ 0
-15
-Text Label 4450 1700 1    60   ~ 0
-35
-Text Label 4850 1500 1    60   ~ 0
-23
-Text Label 5200 1750 1    60   ~ 0
-43
-$Comp
-L GND #PWR027
-U 1 1 5B2C32CE
-P 5200 1500
-F 0 "#PWR027" H 5200 1250 50  0001 C CNN
-F 1 "GND" H 5200 1350 50  0000 C CNN
-F 2 "" H 5200 1500 50  0001 C CNN
-F 3 "" H 5200 1500 50  0001 C CNN
-	1    5200 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR028
-U 1 1 5B2C33C2
-P 4850 1200
-F 0 "#PWR028" H 4850 950 50  0001 C CNN
-F 1 "GND" H 4850 1050 50  0000 C CNN
-F 2 "" H 4850 1200 50  0001 C CNN
-F 3 "" H 4850 1200 50  0001 C CNN
-	1    4850 1200
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR029
-U 1 1 5B2C3526
-P 4450 1100
-F 0 "#PWR029" H 4450 850 50  0001 C CNN
-F 1 "GND" H 4450 950 50  0000 C CNN
-F 2 "" H 4450 1100 50  0001 C CNN
-F 3 "" H 4450 1100 50  0001 C CNN
-	1    4450 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR030
-U 1 1 5B2C361A
-P 4550 1500
-F 0 "#PWR030" H 4550 1250 50  0001 C CNN
-F 1 "GND" H 4550 1350 50  0000 C CNN
-F 2 "" H 4550 1500 50  0001 C CNN
-F 3 "" H 4550 1500 50  0001 C CNN
-	1    4550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR031
-U 1 1 5B2C370E
-P 4050 1100
-F 0 "#PWR031" H 4050 950 50  0001 C CNN
-F 1 "+5V" H 4050 1240 50  0000 C CNN
-F 2 "" H 4050 1100 50  0001 C CNN
-F 3 "" H 4050 1100 50  0001 C CNN
-	1    4050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR032
-U 1 1 5B2C3802
-P 4150 1400
-F 0 "#PWR032" H 4150 1250 50  0001 C CNN
-F 1 "+5V" H 4150 1540 50  0000 C CNN
-F 2 "" H 4150 1400 50  0001 C CNN
-F 3 "" H 4150 1400 50  0001 C CNN
-	1    4150 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR033
-U 1 1 5B2C38F6
-P 4550 1250
-F 0 "#PWR033" H 4550 1100 50  0001 C CNN
-F 1 "+5V" H 4550 1390 50  0000 C CNN
-F 2 "" H 4550 1250 50  0001 C CNN
-F 3 "" H 4550 1250 50  0001 C CNN
-	1    4550 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR034
-U 1 1 5B2C39EA
-P 5000 1450
-F 0 "#PWR034" H 5000 1300 50  0001 C CNN
-F 1 "+5V" H 5000 1590 50  0000 C CNN
-F 2 "" H 5000 1450 50  0001 C CNN
-F 3 "" H 5000 1450 50  0001 C CNN
-	1    5000 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L C C10
-U 1 1 5B2C4676
-P 3750 1600
-F 0 "C10" H 3775 1700 50  0000 L CNN
-F 1 "100nF" H 3775 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 1450 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564" H 3750 1600 50  0001 C CNN
-	1    3750 1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3900 1750 4000 1750
 Wire Wire Line
@@ -1658,17 +1671,7 @@ Connection ~ 3900 1600
 Wire Wire Line
 	3600 1450 3600 1800
 Connection ~ 3600 1600
-Text Label 3600 1800 1    60   ~ 0
-5
-$Comp
-L GND #PWR035
-U 1 1 5B2C4F06
-P 3600 1450
-F 0 "#PWR035" H 3600 1200 50  0001 C CNN
-F 1 "GND" H 3600 1300 50  0000 C CNN
-F 2 "" H 3600 1450 50  0001 C CNN
-F 3 "" H 3600 1450 50  0001 C CNN
-	1    3600 1450
-	-1   0    0    1   
-$EndComp
+Wire Wire Line
+	3300 3800 3300 4404
+Connection ~ 3297 4403
 $EndSCHEMATC
