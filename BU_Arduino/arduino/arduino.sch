@@ -109,17 +109,6 @@ F 3 "https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDC
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
-U 1 1 5B27F2D7
-P 7400 4100
-F 0 "#PWR01" H 7400 3850 50  0001 C CNN
-F 1 "GND" H 7400 3950 50  0000 C CNN
-F 2 "" H 7400 4100 50  0001 C CNN
-F 3 "" H 7400 4100 50  0001 C CNN
-	1    7400 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L AVR-ISP-6 CON1
 U 1 1 5B27F3E8
 P 2700 1350
@@ -1674,4 +1663,15 @@ Connection ~ 3600 1600
 Wire Wire Line
 	3300 3800 3300 4404
 Connection ~ 3297 4403
+$Comp
+L GND #PWR?
+U 1 1 5B5A486F
+P 7400 4100
+F 0 "#PWR?" H 7400 3850 50  0001 C CNN
+F 1 "GND" H 7400 3950 50  0000 C CNN
+F 2 "" H 7400 4100 50  0001 C CNN
+F 3 "" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
