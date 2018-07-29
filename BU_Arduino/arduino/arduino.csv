@@ -1,53 +1,29 @@
-Reference, Value, Footprint, Datasheet
-"R6","10K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854"
-"CON1","ICSP","Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm",""
-"C7","1uF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R71E105KA88D/490-5899-1-ND/3586295"
-"R5","R","Resistors_SMD:R_0805_HandSoldering",""
-"C6","100nF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104KXXAC/720-1392-6-ND/3986187"
-"R4","R","Resistors_SMD:R_0805_HandSoldering",""
-"Y1","16MHz","Crystals:Crystal_SMD_0603-2pin_6.0x3.5mm_HandSoldering","https://www.digikey.com/product-detail/en/abracon-llc/ABLS-16.000MHZ-B4-T/535-10226-1-ND/2184261"
-"C1","22pF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007030/732-7829-1-ND/5454456"
-"C2","22pF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007030/732-7829-1-ND/5454456"
-"J6","Analog","Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm","https://www.digikey.com/product-detail/en/samtec-inc/ESQ-106-12-T-S/SAM11083-ND/6691879"
-"J5","Digital","Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm","https://www.digikey.com/product-detail/en/samtec-inc/ESW-108-12-G-S/SAM11127-ND/6692498"
-"J4","Digital","Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm","https://www.digikey.com/product-detail/en/samtec-inc/ESQ-110-23-G-S/SAM11097-ND/6693037"
-"R9","1K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-102-D/RR12P1.0KDCT-ND/432830"
-"R8","1K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-102-D/RR12P1.0KDCT-ND/432830"
-"R7","1K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-102-D/RR12P1.0KDCT-ND/432830"
-"D5","ON","LEDs:LED_0805_HandSoldering","https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171GKT/160-1423-1-ND/386792"
-"D4","RX","LEDs:LED_0805_HandSoldering","https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KSKT/160-1428-1-ND/386802"
-"D3","TX","LEDs:LED_0805_HandSoldering","https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KSKT/160-1428-1-ND/386802"
-"J3","Power","Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm","https://www.digikey.com/product-detail/en/samtec-inc/ESW-108-12-G-S/SAM11127-ND/6692498"
-"J1","USB_A","Connectors:USB_Micro-B","https://www.digikey.com/product-detail/en/amphenol-fci/10118194-0001LF/609-4618-1-ND/2785382"
-"R1","22","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220Q-220-D/RR12Q22DCT-ND/432792"
-"R2","22","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220Q-220-D/RR12Q22DCT-ND/432792"
-"R3","10K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854"
-"D1","D","Diodes_SMD:D_MiniMELF_Handsoldering","https://www.digikey.com/product-detail/en/on-semiconductor/LL4148/LL4148FSCT-ND/1923118"
-"C4","100nF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104KXXAC/720-1392-6-ND/3986187"
-"C8","100nF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104KXXAC/720-1392-6-ND/3986187"
-"U1","NCP1117-12_TO252","TO_SOT_Packages_SMD:TO-252-3_TabPin2","https://www.digikey.com/product-detail/en/on-semiconductor/NCP1117DT50G/NCP1117DT50GOS-ND/1483320"
-"J2","Barrel_Jack","Connectors:BARREL_JACK","https://www.digikey.com/product-detail/en/cui-inc/PJ-002B/CP-002B-ND/96965"
-"L1","Ferrite_Bead","Inductors_SMD:L_0603_HandSoldering","https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG181SN1D/490-5263-1-ND/2003844"
-"SW1","SW_Push_Dual","Buttons_Switches_THT:SW_PUSH_6mm_h4.3mm","https://www.digikey.com/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590"
-"U4","LP2985-3.3","TO_SOT_Packages_SMD:SOT-23-5","https://www.digikey.com/product-detail/en/texas-instruments/LP2985-33DBVR/296-18476-1-ND/809911"
-"C19","1uF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R71E105KA88D/490-5899-1-ND/3586295"
-"U3","LMV358","Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm","https://www.digikey.com/product-detail/en/texas-instruments/LMV358IDGKR/296-13455-1-ND/486370"
-"R12","1K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-102-D/RR12P1.0KDCT-ND/432830"
-"D6","L","LEDs:LED_0805_HandSoldering","https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KSKT/160-1428-1-ND/386802"
-"C18","100nF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104KXXAC/720-1392-6-ND/3986187"
-"C16","100nF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104KXXAC/720-1392-6-ND/3986187"
-"R10","10K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854"
-"R11","10K","Resistors_SMD:R_0805_HandSoldering","https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854"
-"Q1","FDN340P","TO_SOT_Packages_SMD:SuperSOT-3","https://www.digikey.com/product-detail/en/on-semiconductor/FDN340P/FDN340PCT-ND/965604"
-"C17","1uF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R71E105KA88D/490-5899-1-ND/3586295"
-"C5","100nF","Capacitors_SMD:C_0805_HandSoldering","https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104KXXAC/720-1392-6-ND/3986187"
-"C3","10uF","Capacitors_SMD:CP_Elec_5x5.3","https://www.digikey.com/product-detail/en/wurth-electronics-inc/865250442003/732-8312-1-ND/5728269"
-"C15","10uF","Capacitors_SMD:CP_Elec_5x5.3","https://www.digikey.com/product-detail/en/wurth-electronics-inc/865250442003/732-8312-1-ND/5728269"
-"D2","D","Diodes_SMD:D_MiniMELF_Handsoldering","https://www.digikey.com/product-detail/en/on-semiconductor/LL4148/LL4148FSCT-ND/1923118"
-"C9","10uF","Capacitors_SMD:CP_Elec_5x5.3","https://www.digikey.com/product-detail/en/wurth-electronics-inc/865250442003/732-8312-1-ND/5728269"
-"C20","100nF","Capacitors_SMD:C_0603_HandSoldering","https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564"
-"C21","100nF","Capacitors_SMD:C_0603_HandSoldering","https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564"
-"C22","100nF","Capacitors_SMD:C_0603_HandSoldering","https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564"
-"C23","100nF","Capacitors_SMD:C_0603_HandSoldering","https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564"
-"C10","100nF","Capacitors_SMD:C_0603_HandSoldering","https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564"
-"U2","ATMEGA32U4-AU","Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm","https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4-AUR/ATMEGA32U4-AURCT-ND/3440960"
+Reference, Quantity, Value, Footprint, Datasheet
+C1 C2 ,2,22pF,Capacitors_SMD:C_0805_HandSoldering,https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007030/732-7829-1-ND/5454456
+C15 C3 C9 ,3,10uF,Capacitors_SMD:CP_Elec_5x5.3,https://www.digikey.com/product-detail/en/wurth-electronics-inc/865250442003/732-8312-1-ND/5728269
+C10 C16 C18 C20 C21 C22 C23 C4 C5 C6 C8 ,11,100nF,Capacitors_SMD:C_0603_HandSoldering,https://www.digikey.es/product-detail/en/kemet/C0603C103K4RACTU/399-7841-1-ND/3471564
+C17 C19 C7 ,3,1uF,Capacitors_SMD:C_0805_HandSoldering,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R71E105KA88D/490-5899-1-ND/3586295
+CON1 ,1,ICSP,Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm,
+D1 D2 ,2,D,Diodes_SMD:D_MiniMELF_Handsoldering,https://www.digikey.com/product-detail/en/on-semiconductor/LL4148/LL4148FSCT-ND/1923118
+D3 ,1,TX,LEDs:LED_0805_HandSoldering,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KSKT/160-1428-1-ND/386802
+D4 ,1,RX,LEDs:LED_0805_HandSoldering,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KSKT/160-1428-1-ND/386802
+D5 ,1,ON,LEDs:LED_0805_HandSoldering,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171GKT/160-1423-1-ND/386792
+D6 ,1,L,LEDs:LED_0805_HandSoldering,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KSKT/160-1428-1-ND/386802
+J1 ,1,USB_A,Connectors:USB_Micro-B,https://www.digikey.com/product-detail/en/amphenol-fci/10118194-0001LF/609-4618-1-ND/2785382
+J2 ,1,Barrel_Jack,Connectors:BARREL_JACK,https://www.digikey.com/product-detail/en/cui-inc/PJ-002B/CP-002B-ND/96965
+J3 ,1,Power,Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm,https://www.digikey.com/product-detail/en/samtec-inc/ESW-108-12-G-S/SAM11127-ND/6692498
+J4 ,1,Digital,Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm,https://www.digikey.com/product-detail/en/samtec-inc/ESQ-110-23-G-S/SAM11097-ND/6693037
+J5 ,1,Digital,Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm,https://www.digikey.com/product-detail/en/samtec-inc/ESW-108-12-G-S/SAM11127-ND/6692498
+J6 ,1,Analog,Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm,https://www.digikey.com/product-detail/en/samtec-inc/ESQ-106-12-T-S/SAM11083-ND/6691879
+L1 ,1,Ferrite_Bead,Inductors_SMD:L_0603_HandSoldering,https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG181SN1D/490-5263-1-ND/2003844
+Q1 ,1,FDN340P,TO_SOT_Packages_SMD:SuperSOT-3,https://www.digikey.com/product-detail/en/on-semiconductor/FDN340P/FDN340PCT-ND/965604
+R1 R2 ,2,22,Resistors_SMD:R_0805_HandSoldering,https://www.digikey.com/product-detail/en/susumu/RR1220Q-220-D/RR12Q22DCT-ND/432792
+R4 R5 ,2,R,Resistors_SMD:R_0805_HandSoldering,
+R10 R11 R3 R6 ,4,10K,Resistors_SMD:R_0805_HandSoldering,https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854
+R12 R7 R8 R9 ,4,1K,Resistors_SMD:R_0805_HandSoldering,https://www.digikey.com/product-detail/en/susumu/RR1220P-102-D/RR12P1.0KDCT-ND/432830
+SW1 ,1,SW_Push_Dual,Buttons_Switches_THT:SW_PUSH_6mm_h4.3mm,https://www.digikey.com/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590
+U1 ,1,NCP1117-12_TO252,TO_SOT_Packages_SMD:TO-252-3_TabPin2,https://www.digikey.com/product-detail/en/on-semiconductor/NCP1117DT50G/NCP1117DT50GOS-ND/1483320
+U2 ,1,ATMEGA32U4-AU,Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm,https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4-AUR/ATMEGA32U4-AURCT-ND/3440960
+U3 ,1,LMV358,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,https://www.digikey.com/product-detail/en/texas-instruments/LMV358IDGKR/296-13455-1-ND/486370
+U4 ,1,LP2985-3.3,TO_SOT_Packages_SMD:SOT-23-5,https://www.digikey.com/product-detail/en/texas-instruments/LP2985-33DBVR/296-18476-1-ND/809911
+Y1 ,1,16MHz,Crystals:Crystal_SMD_0603-2pin_6.0x3.5mm_HandSoldering,https://www.digikey.com/product-detail/en/abracon-llc/ABLS-16.000MHZ-B4-T/535-10226-1-ND/2184261
