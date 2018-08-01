@@ -1,4 +1,4 @@
-update=Thursday, July 26, 2018 'PMt' 02:51:11 PM
+update=Tuesday, July 31, 2018 'PMt' 12:36:37 PM
 version=1
 last_client=eeschema
 [general]
@@ -64,3 +64,13 @@ LibName30=/Users/Rahul/Documents/KiCAD/adf4158
 LibName31=/Users/Rahul/Documents/KiCAD/hmc431lp4
 LibName32=/Users/Rahul/Documents/KiCAD/SE5003
 LibName33=/Users/Rahul/Documents/KiCAD/se5003_1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

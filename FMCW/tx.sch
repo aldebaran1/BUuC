@@ -680,20 +680,6 @@ F 3 "" H 3650 4750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 4250 5750
-Text HLabel 2150 5750 0    60   Input ~ 0
-REFIN
-Text HLabel 2150 5950 0    60   Output ~ 0
-MUXOUT
-Text HLabel 2150 6200 0    60   Input ~ 0
-ADF_CE
-Text HLabel 2150 6300 0    60   Input ~ 0
-ADC_TXDATA
-Text HLabel 2150 6500 0    60   Input ~ 0
-ADC_CLK
-Text HLabel 2150 6600 0    60   Input ~ 0
-ADC_DATA
-Text HLabel 2150 6700 0    60   Input ~ 0
-ADF_LE
 Text HLabel 6950 4850 0    60   Input ~ 0
 10V
 Text HLabel 3050 3650 0    60   Input ~ 0
@@ -1266,9 +1252,9 @@ Wire Wire Line
 Wire Wire Line
 	2150 6500 2300 6500
 Wire Wire Line
-	2150 6600 2400 6600
+	2100 6600 2400 6600
 Wire Wire Line
-	2150 6700 2450 6700
+	2050 6700 2450 6700
 Wire Wire Line
 	2150 6200 2450 6200
 Wire Wire Line
@@ -1374,9 +1360,9 @@ Connection ~ 5900 5900
 Wire Wire Line
 	5900 6300 5900 6400
 Wire Wire Line
-	2150 5950 2300 5950
+	1900 5950 2300 5950
 Wire Wire Line
-	2150 5750 2450 5750
+	1850 5750 2450 5750
 Wire Wire Line
 	14350 5000 15300 5000
 Wire Wire Line
@@ -1746,4 +1732,41 @@ F 3 "" H 14950 5550 50  0001 C CNN
 	1    14950 5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_01x07_Male J4
+U 1 1 5B61EDE4
+P 1650 6250
+F 0 "J4" H 1650 6650 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 1650 5850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 1650 6250 50  0001 C CNN
+F 3 "" H 1650 6250 50  0001 C CNN
+	1    1650 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5750 1850 5950
+Wire Wire Line
+	1900 5950 1900 6050
+Wire Wire Line
+	1900 6050 1850 6050
+Wire Wire Line
+	2150 6200 2150 6150
+Wire Wire Line
+	2150 6150 1850 6150
+Wire Wire Line
+	2150 6300 2150 6250
+Wire Wire Line
+	2150 6250 1850 6250
+Wire Wire Line
+	2150 6500 2150 6350
+Wire Wire Line
+	2150 6350 1850 6350
+Wire Wire Line
+	2100 6600 2100 6450
+Wire Wire Line
+	2100 6450 1850 6450
+Wire Wire Line
+	2050 6700 2050 6550
+Wire Wire Line
+	2050 6550 1850 6550
 $EndSCHEMATC
