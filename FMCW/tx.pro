@@ -1,4 +1,4 @@
-update=Tuesday, July 31, 2018 'PMt' 12:36:37 PM
+update=Friday, August 03, 2018 'AMt' 10:16:59 AM
 version=1
 last_client=eeschema
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -60,17 +70,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/Rahul/Documents/KiCAD/adf4158
-LibName31=/Users/Rahul/Documents/KiCAD/hmc431lp4
-LibName32=/Users/Rahul/Documents/KiCAD/SE5003
-LibName33=/Users/Rahul/Documents/KiCAD/se5003_1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=libs/se5003_1
+LibName31=libs/SE5003
+LibName32=libs/pat1220-6db
+LibName33=libs/hmc431lp4
+LibName34=libs/adf4158
