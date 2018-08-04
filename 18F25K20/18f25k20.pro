@@ -1,4 +1,4 @@
-update=6/23/2018 10:43:13 AM
+update=8/3/2018 6:35:18 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,21 +23,11 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=.pretty
+LibDir=.pretty;../../../../../FE/BGT_projekt/kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=18F25K20
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
