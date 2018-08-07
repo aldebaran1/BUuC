@@ -1,6 +1,6 @@
-update=Friday, August 03, 2018 'AMt' 10:16:59 AM
+update=Tuesday, August 07, 2018 'AMt' 11:22:02 AM
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -75,3 +75,4 @@ LibName31=libs/SE5003
 LibName32=libs/pat1220-6db
 LibName33=libs/hmc431lp4
 LibName34=libs/adf4158
+LibName35=libs/tcxo
