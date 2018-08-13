@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 145)
+    (links 161)
     (no_connects 0)
-    (area 131.316999 80.975999 212.511001 136.965)
+    (area -4.571904 -2.105 212.511001 136.965)
     (thickness 1.6)
     (drawings 16)
     (tracks 755)
     (zones 0)
-    (modules 52)
+    (modules 69)
     (nets 52)
   )
 
@@ -64,8 +64,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.2 0.75)
-    (pad_drill 0)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.4)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFEFF7F)
@@ -85,7 +85,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -207,6 +207,198 @@
     (add_net "Net-(R12-Pad1)")
     (add_net "Net-(R2-Pad1)")
     (add_net "Net-(U4-Pad4)")
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719673)
+    (at 150.666 100.628)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71966F)
+    (at 149.466 100.628)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71966B)
+    (at 148.266 100.628)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719667)
+    (at 147.066 100.628)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719663)
+    (at 150.666 99.428)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71965F)
+    (at 149.466 99.428)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71965B)
+    (at 148.266 99.428)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719657)
+    (at 147.066 99.428)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719653)
+    (at 150.666 98.228)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71964F)
+    (at 149.466 98.228)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71964B)
+    (at 148.266 98.228)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719647)
+    (at 147.066 98.228)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B719643)
+    (at 150.666 97.028)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71963F)
+    (at 149.466 97.028)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71963B)
+    (at 148.266 97.028)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module Via-0.6mm (layer F.Cu) (tedit 5B7190F6) (tstamp 5B719161)
+    (at 0 0)
+    (fp_text reference REF** (at 0.04 1.24) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via-0.6mm (at -0.11 -1.13) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (zone_connect 2))
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5B5E019E)
@@ -2401,6 +2593,18 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (module arduino:Via (layer F.Cu) (tedit 5B719550) (tstamp 5B71953C)
+    (at 147.066 97.028)
+    (fp_text reference REF** (at 0.05 1.58) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via (at 0.01 -1.78) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.02 0.02) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (gr_line (start 210.566 81.026) (end 208.026 81.026) (angle 90) (layer Edge.Cuts) (width 0.1))
