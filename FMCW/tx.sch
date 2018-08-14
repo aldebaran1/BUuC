@@ -1685,7 +1685,7 @@ F 3 "https://www.digikey.com/product-detail/en/vishay-sprague/298W107X0010D/718-
 	1    0    0    -1  
 $EndComp
 Text Notes 11850 4350 3    60   ~ 0
-2.86V
+2.89V
 $Comp
 L R R16
 U 1 1 5B733779
