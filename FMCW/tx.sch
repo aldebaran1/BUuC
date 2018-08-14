@@ -254,9 +254,9 @@ L R R1
 U 1 1 54FAC988
 P 4250 7000
 F 0 "R1" V 4330 7000 40  0000 C CNN
-F 1 "5.49k" V 4257 7001 40  0000 C CNN
+F 1 "5.1k" V 4257 7001 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4180 7000 30  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5491V/P5.49KCCT-ND/119173" H 4250 7000 30  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB512V/P5.1KDACT-ND/1465964" H 4250 7000 30  0001 C CNN
 	1    4250 7000
 	1    0    0    -1  
 $EndComp
@@ -300,7 +300,7 @@ P 8100 5000
 F 0 "C26" H 8100 5100 40  0000 L CNN
 F 1 "4.7u" H 8106 4915 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8138 4850 30  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A475MMA/478-8726-1-ND/4303947" H 8100 5000 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B475KQ8NQNC/1276-2087-1-ND/3890173" H 8100 5000 60  0001 C CNN
 	1    8100 5000
 	1    0    0    -1  
 $EndComp
@@ -353,9 +353,9 @@ L R R9
 U 1 1 54FADE32
 P 10200 5550
 F 0 "R9" V 10280 5550 40  0000 C CNN
-F 1 "18" V 10207 5551 40  0000 C CNN
+F 1 "16" V 10207 5551 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10130 5550 30  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ180/RHM18KCT-ND/1762974" H 10200 5550 30  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPF16R0/RHM16.0AECT-ND/1983822" H 10200 5550 30  0001 C CNN
 	1    10200 5550
 	0    1    1    0   
 $EndComp
@@ -364,9 +364,9 @@ L R R11
 U 1 1 54FADEF5
 P 10550 5250
 F 0 "R11" V 10630 5250 40  0000 C CNN
-F 1 "18" V 10557 5251 40  0000 C CNN
+F 1 "16" V 10557 5251 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10480 5250 30  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ180/RHM18KCT-ND/1762974" H 10550 5250 30  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPF16R0/RHM16.0AECT-ND/1983822" H 10550 5250 30  0001 C CNN
 	1    10550 5250
 	1    0    0    -1  
 $EndComp
@@ -375,9 +375,9 @@ L R R12
 U 1 1 54FADF4C
 P 10550 5850
 F 0 "R12" V 10630 5850 40  0000 C CNN
-F 1 "18" V 10557 5851 40  0000 C CNN
+F 1 "16" V 10557 5851 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10480 5850 30  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ180/RHM18KCT-ND/1762974" H 10550 5850 30  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPF16R0/RHM16.0AECT-ND/1983822" H 10550 5850 30  0001 C CNN
 	1    10550 5850
 	1    0    0    -1  
 $EndComp
@@ -409,7 +409,7 @@ P 12550 3700
 F 0 "C39" H 12550 3800 40  0000 L CNN
 F 1 "2.2u" H 12556 3615 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 12588 3550 30  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F981C225MMA/478-8655-1-ND/4005624" H 12550 3700 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT188R61E225KE13D/490-12324-1-ND/5417025" H 12550 3700 60  0001 C CNN
 	1    12550 3700
 	0    1    1    0   
 $EndComp
@@ -547,7 +547,7 @@ Text HLabel 3050 3650 0    60   Input ~ 0
 5V
 Text HLabel 2750 4600 0    60   Input ~ 0
 3V3
-Text Notes 2050 7700 0    60   ~ 0
+Text Notes 2700 7900 0    60   ~ 0
 10V current: 1mA\n3.3V current: 600mA\n5V current: 1mA
 Text HLabel 7150 4400 0    60   Input ~ 0
 3V0
@@ -590,7 +590,7 @@ U 1 1 5B5A8F7C
 P 15500 4950
 F 0 "J3" H 15510 5070 50  0000 C CNN
 F 1 "SMA_TX" V 15615 4950 50  0000 C CNN
-F 2 "buradar:SMA" H 15500 4950 50  0001 C CNN
+F 2 "buradar:SMA_molex_straight" H 15500 4950 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=0%09WM5536-" H 15500 4950 50  0001 C CNN
 	1    15500 4950
 	1    0    0    -1  
@@ -618,61 +618,6 @@ F 3 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002B/CP-002B-ND/96965"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
-U 1 1 5B5AA5D5
-P 2450 1700
-F 0 "C1" H 2475 1800 50  0000 L CNN
-F 1 "10u" H 2475 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2488 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A106MMA/478-9527-1-ND/5001619" H 2450 1700 50  0001 C CNN
-	1    2450 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C9
-U 1 1 5B5AA6E1
-P 3150 1700
-F 0 "C9" H 3175 1800 50  0000 L CNN
-F 1 "10u" H 3175 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3188 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A106MMA/478-9527-1-ND/5001619" H 3150 1700 50  0001 C CNN
-	1    3150 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C12
-U 1 1 5B5AA7D2
-P 3350 1700
-F 0 "C12" H 3375 1800 50  0000 L CNN
-F 1 "10u" H 3375 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3388 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A106MA73L/490-10517-1-ND/5026448" H 3350 1700 50  0001 C CNN
-	1    3350 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C13
-U 1 1 5B5AA8BF
-P 3550 1700
-F 0 "C13" H 3575 1800 50  0000 L CNN
-F 1 "10u" H 3575 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3588 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A106MMA/478-9527-1-ND/5001619" H 3550 1700 50  0001 C CNN
-	1    3550 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 5B5AABA5
-P 3950 1700
-F 0 "C16" H 3975 1800 50  0000 L CNN
-F 1 "10u" H 3975 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3988 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A106MMA/478-9527-1-ND/5001619" H 3950 1700 50  0001 C CNN
-	1    3950 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L L_Core_Ferrite L1
 U 1 1 5B5AAF68
 P 2800 1550
@@ -694,8 +639,6 @@ F 3 "" H 2850 2050 50  0001 C CNN
 	1    2850 2050
 	1    0    0    -1  
 $EndComp
-Text Label 4400 1550 2    60   ~ 0
-12V
 $Comp
 L LP2985-10.0 U5
 U 1 1 5B5ADB3E
@@ -719,35 +662,13 @@ F 3 "https://www.digikey.com/product-detail/en/texas-instruments/LP2985-30DBVR/2
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C18
-U 1 1 5B5AF429
-P 7200 1750
-F 0 "C18" H 7225 1850 50  0000 L CNN
-F 1 "10u" H 7225 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7238 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A106MMA/478-9527-1-ND/5001619" H 7200 1750 50  0001 C CNN
-	1    7200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C20
-U 1 1 5B5AF5A3
-P 8550 1750
-F 0 "C20" H 8575 1850 50  0000 L CNN
-F 1 "100u" H 8575 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8588 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR60J107ME15L/490-13981-1-ND/6155811" H 8550 1750 50  0001 C CNN
-	1    8550 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C22
 U 1 1 5B5AF7EF
 P 9200 1750
 F 0 "C22" H 9225 1850 50  0000 L CNN
 F 1 "1u" H 9225 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9238 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F981D105MMA/478-8657-1-ND/4005840" H 9200 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK107B7105KA-T/587-2984-1-ND/2714177" H 9200 1750 50  0001 C CNN
 	1    9200 1750
 	1    0    0    -1  
 $EndComp
@@ -767,9 +688,9 @@ L C C24
 U 1 1 5B5AFA58
 P 10500 1750
 F 0 "C24" H 10525 1850 50  0000 L CNN
-F 1 "4.7u" H 10525 1650 50  0000 L CNN
+F 1 "2.2u" H 10525 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10538 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A475MMA/478-8726-1-ND/4303947" H 10500 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT188R61E225KE13D/490-12324-1-ND/5417025" H 10500 1750 50  0001 C CNN
 	1    10500 1750
 	1    0    0    -1  
 $EndComp
@@ -780,7 +701,7 @@ P 11550 1750
 F 0 "C25" H 11575 1850 50  0000 L CNN
 F 1 "1u" H 11575 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11588 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F981D105MMA/478-8657-1-ND/4005840" H 11550 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK107B7105KA-T/587-2984-1-ND/2714177" H 11550 1750 50  0001 C CNN
 	1    11550 1750
 	1    0    0    -1  
 $EndComp
@@ -802,7 +723,7 @@ P 12950 1750
 F 0 "C30" H 12975 1850 50  0000 L CNN
 F 1 "4.7u" H 12975 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 12988 1600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A475MMA/478-8726-1-ND/4303947" H 12950 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B475KQ8NQNC/1276-2087-1-ND/3890173" H 12950 1750 50  0001 C CNN
 	1    12950 1750
 	1    0    0    -1  
 $EndComp
@@ -912,23 +833,12 @@ U 1 1 5B5B7614
 P 14950 5350
 F 0 "J2" H 14960 5470 50  0000 C CNN
 F 1 "SMA_RX" V 15065 5350 50  0000 C CNN
-F 2 "buradar:SMA" H 14950 5350 50  0001 C CNN
+F 2 "buradar:SMA_molex_straight" H 14950 5350 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=0%09WM5536-" H 14950 5350 50  0001 C CNN
 	1    14950 5350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 13000 5350
-$Comp
-L C C15
-U 1 1 5B5AA9B3
-P 3750 1700
-F 0 "C15" H 3775 1800 50  0000 L CNN
-F 1 "10u" H 3775 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A106MA73L/490-10517-1-ND/5026448" H 3750 1700 50  0001 C CNN
-	1    3750 1700
-	1    0    0    -1  
-$EndComp
 NoConn ~ 11400 5150
 NoConn ~ 11400 5250
 $Comp
@@ -944,17 +854,17 @@ F 3 "" H 14950 5550 50  0001 C CNN
 $EndComp
 Text HLabel 11150 3100 0    60   Input ~ 0
 5V
-Text HLabel 10600 4400 0    60   Input ~ 0
+Text HLabel 10250 4400 0    60   Input ~ 0
 5V
 $Comp
 L R R6
 U 1 1 5B6429AD
-P 10900 4400
-F 0 "R6" V 10980 4400 50  0000 C CNN
-F 1 "3.74k" V 10900 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10830 4400 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3741V/P3.74KDACT-ND/3075111" H 10900 4400 50  0001 C CNN
-	1    10900 4400
+P 10550 4400
+F 0 "R6" V 10630 4400 50  0000 C CNN
+F 1 "3.3k" V 10550 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10480 4400 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D3301V/P21076CT-ND/6215331" H 10550 4400 50  0001 C CNN
+	1    10550 4400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -962,9 +872,9 @@ L R R7
 U 1 1 5B642AEC
 P 11250 4300
 F 0 "R7" V 11330 4300 50  0000 C CNN
-F 1 "5k" V 11250 4300 50  0000 C CNN
+F 1 "5.1k" V 11250 4300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 11180 4300 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4991V/P4.99KCCT-ND/119161" H 11250 4300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB512V/P5.1KDACT-ND/1465964" H 11250 4300 50  0001 C CNN
 	1    11250 4300
 	1    0    0    -1  
 $EndComp
@@ -1258,23 +1168,8 @@ Wire Wire Line
 Wire Wire Line
 	15300 4950 15300 5000
 Wire Wire Line
-	2150 1550 2650 1550
-Connection ~ 2450 1550
-Wire Wire Line
-	2950 1550 4400 1550
-Connection ~ 3150 1550
-Connection ~ 3350 1550
-Connection ~ 3550 1550
-Connection ~ 3950 1550
-Wire Wire Line
 	2150 1650 2150 1850
-Wire Wire Line
-	2150 1850 3950 1850
 Connection ~ 2150 1750
-Connection ~ 2450 1850
-Connection ~ 3150 1850
-Connection ~ 3350 1850
-Connection ~ 3550 1850
 Wire Wire Line
 	2850 1850 2850 2050
 Connection ~ 2850 1850
@@ -1347,8 +1242,6 @@ Connection ~ 12950 1600
 Connection ~ 11550 1600
 Connection ~ 10500 1600
 Connection ~ 9200 1600
-Connection ~ 8550 1600
-Connection ~ 7200 1600
 Wire Wire Line
 	12150 5750 12150 5850
 Wire Wire Line
@@ -1402,8 +1295,6 @@ Wire Wire Line
 	12350 3050 11800 3050
 Wire Wire Line
 	11800 3050 11800 3100
-Connection ~ 3750 1850
-Connection ~ 3750 1550
 Wire Wire Line
 	1850 6050 2450 6050
 Wire Wire Line
@@ -1421,10 +1312,10 @@ Wire Wire Line
 Wire Wire Line
 	11050 4150 11850 4150
 Wire Wire Line
-	11050 4150 11050 4400
+	10700 4150 10700 4400
 Connection ~ 11250 4150
 Wire Wire Line
-	10750 4400 10600 4400
+	10400 4400 10250 4400
 Wire Wire Line
 	11250 4450 11600 4450
 Wire Wire Line
@@ -1441,7 +1332,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6400 2100 6450
 Wire Wire Line
-	2450 6550 2450 6450
+	2450 6450 2450 6600
 $Comp
 L TCXO U8
 U 1 1 5B69C921
@@ -1585,7 +1476,7 @@ P 6250 2000
 F 0 "C19" H 6275 2100 50  0000 L CNN
 F 1 "4.7u" H 6275 1900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6288 1850 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F381A475MMA/478-8726-1-ND/4303947" H 6250 2000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B475KQ8NQNC/1276-2087-1-ND/3890173" H 6250 2000 50  0001 C CNN
 	1    6250 2000
 	1    0    0    -1  
 $EndComp
@@ -1596,7 +1487,7 @@ P 4850 2000
 F 0 "C10" H 4875 2100 50  0000 L CNN
 F 1 "1u" H 4875 1900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4888 1850 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/F981D105MMA/478-8657-1-ND/4005840" H 4850 2000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK107B7105KA-T/587-2984-1-ND/2714177" H 4850 2000 50  0001 C CNN
 	1    4850 2000
 	1    0    0    -1  
 $EndComp
@@ -1687,9 +1578,9 @@ L R R5
 U 1 1 5B6BAA37
 P 6450 6000
 F 0 "R5" V 6530 6000 50  0000 C CNN
-F 1 "1.1k" V 6450 6000 50  0000 C CNN
+F 1 "1k" V 6450 6000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6380 6000 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB112V/P1.1KDACT-ND/1465948" H 6450 6000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 6450 6000 50  0001 C CNN
 	1    6450 6000
 	0    1    1    0   
 $EndComp
@@ -1698,9 +1589,9 @@ L R R13
 U 1 1 5B6BAB83
 P 6950 6550
 F 0 "R13" V 7030 6550 50  0000 C CNN
-F 1 "226" V 6950 6550 50  0000 C CNN
+F 1 "220" V 6950 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6880 6550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF2260V/P226CCT-ND/118770" H 6950 6550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D2200V/P20941CT-ND/6215196" H 6950 6550 50  0001 C CNN
 	1    6950 6550
 	0    1    1    0   
 $EndComp
@@ -1782,4 +1673,128 @@ F 3 "" H 1650 6250 50  0001 C CNN
 	1    1650 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L CP C12
+U 1 1 5B7315DF
+P 8550 1750
+F 0 "C12" H 8575 1850 50  0000 L CNN
+F 1 "100u" H 8575 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8588 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/vishay-sprague/298W107X0010D/718-1904-6-ND/3877860" H 8550 1750 50  0001 C CNN
+	1    8550 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 11850 4350 3    60   ~ 0
+2.86V
+$Comp
+L R R16
+U 1 1 5B733779
+P 2450 6750
+F 0 "R16" V 2530 6750 50  0000 C CNN
+F 1 "10k" V 2450 6750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2380 6750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB103V/P10KDACT-ND/1465971" H 2450 6750 50  0001 C CNN
+	1    2450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5B7338B4
+P 2450 6950
+F 0 "#PWR034" H 2450 6700 50  0001 C CNN
+F 1 "GND" H 2450 6800 50  0000 C CNN
+F 2 "" H 2450 6950 50  0001 C CNN
+F 3 "" H 2450 6950 50  0001 C CNN
+	1    2450 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 6550
+Wire Wire Line
+	2450 6900 2450 6950
+$Comp
+L R R15
+U 1 1 5B733E4B
+P 2150 6800
+F 0 "R15" V 2230 6800 50  0000 C CNN
+F 1 "1k" V 2150 6800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2080 6800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 2150 6800 50  0001 C CNN
+	1    2150 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5B733F8E
+P 2150 7200
+F 0 "D1" H 2150 7300 50  0000 C CNN
+F 1 "LED" H 2150 7100 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2150 7200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB512V/P5.1KDACT-ND/1465964" H 2150 7200 50  0001 C CNN
+	1    2150 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5B7340E2
+P 2150 7400
+F 0 "#PWR035" H 2150 7150 50  0001 C CNN
+F 1 "GND" H 2150 7250 50  0000 C CNN
+F 2 "" H 2150 7400 50  0001 C CNN
+F 3 "" H 2150 7400 50  0001 C CNN
+	1    2150 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6400 2150 6650
+Connection ~ 2150 6400
+Wire Wire Line
+	2150 6950 2150 7050
+Wire Wire Line
+	2150 7350 2150 7400
+Wire Wire Line
+	2950 1550 3650 1550
+Wire Wire Line
+	2150 1850 3150 1850
+Text Label 3650 1550 2    60   ~ 0
+12V
+$Comp
+L CP C9
+U 1 1 5B738846
+P 3150 1700
+F 0 "C9" H 3175 1800 50  0000 L CNN
+F 1 "470u" H 3175 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3188 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 3150 1700 50  0001 C CNN
+	1    3150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 5B73A1C4
+P 10900 4150
+F 0 "R17" V 10980 4150 50  0000 C CNN
+F 1 "510" V 10900 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10830 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D5100V/P20985CT-ND/6215240" H 10900 4150 50  0001 C CNN
+	1    10900 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10750 4150 10700 4150
+Connection ~ 3150 1550
+Wire Wire Line
+	2150 1550 2650 1550
+$Comp
+L CP1 C1
+U 1 1 5B73F4BF
+P 7200 1750
+F 0 "C1" H 7225 1850 50  0000 L CNN
+F 1 "10u" H 7225 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7200 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/avx-corporation/TCJA106M025R0150/478-10001-1-ND/6156153" H 7200 1750 50  0001 C CNN
+	1    7200 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 1600
+Connection ~ 8550 1600
 $EndSCHEMATC
