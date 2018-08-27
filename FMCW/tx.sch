@@ -40,12 +40,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Tx"
+Date "08/16/2018"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "Boston University"
+Comment1 "rahul29@bu.edu"
+Comment2 "Rahul Cherukuri"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1763,7 +1763,7 @@ U 1 1 5B738846
 P 3150 1700
 F 0 "C9" H 3175 1800 50  0000 L CNN
 F 1 "470u" H 3175 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3188 1550 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10" H 3188 1550 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 3150 1700 50  0001 C CNN
 	1    3150 1700
 	1    0    0    -1  
