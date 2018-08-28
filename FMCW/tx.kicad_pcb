@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 186)
-    (no_connects 4)
-    (area 64.644999 83.544999 218.641001 133.605001)
+    (links 274)
+    (no_connects 83)
+    (area 88.661142 81.229999 218.641001 127.789)
     (thickness 1.6)
-    (drawings 13)
-    (tracks 564)
+    (drawings 14)
+    (tracks 598)
     (zones 0)
-    (modules 70)
+    (modules 452)
     (nets 49)
   )
 
@@ -86,7 +86,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -198,7 +198,7 @@
     (add_net "Net-(U8-Pad1)")
   )
 
-  (module buradar:SE5003 (layer F.Cu) (tedit 5B8571F4) (tstamp 5B734161)
+  (module buradar:SE5003 (layer F.Cu) (tedit 5B858C78) (tstamp 5B734161)
     (at 166.878 103.886)
     (path /5B5B57F0)
     (fp_text reference U7 (at -0.03 3.1) (layer F.SilkS)
@@ -256,23 +256,23 @@
     (pad PAD smd rect (at 0 0) (size 2.35 2.35) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad GND thru_hole circle (at -0.7 -0.7) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at 0 -0.7) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at 0.7 -0.7) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at -0.7 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at 0.7 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at -0.7 0.7) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at 0 0.7) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
     (pad GND thru_hole circle (at 0.7 0.7) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.SilkS F.Mask)
-      (zone_connect 2))
+      (net 2 GND) (zone_connect 2))
   )
 
   (module TO_SOT_Packages_SMD:SOT-353_SC-70-5_Handsoldering (layer F.Cu) (tedit 58CE4E7F) (tstamp 5B7340E7)
@@ -427,7 +427,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 5B733C9E)
-    (at 108.458 110.998 180)
+    (at 108.966 110.998 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /54FAB968)
@@ -463,7 +463,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 5B733CAF)
-    (at 108.458 112.522 180)
+    (at 108.966 112.522 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /54FAB91A)
@@ -1557,7 +1557,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 5B733EB8)
-    (at 108.458 114.046 180)
+    (at 108.966 114.046 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /552AB842)
@@ -2921,20 +2921,4311 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (gr_line (start 216.154 81.28) (end 215.392 81.28) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 215.9 83.312) (end 216.154 81.28) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 215.392 126.238) (end 214.63 126.238) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 217.932 124.206) (end 217.932 123.444) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 215.646 123.952) (end 217.932 124.206) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858B3B) (tstamp 5B8590A2)
+    (at 202.184 91.186)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858BC1) (tstamp 5B8590B0)
+    (at 201.168 92.202)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858BC5) (tstamp 5B8590B9)
+    (at 199.898 93.218)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859000) (tstamp 5B85A51F)
+    (at 198.882 94.488)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859010) (tstamp 5B85A528)
+    (at 197.866 95.758)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859014) (tstamp 5B85A531)
+    (at 196.342 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859017) (tstamp 5B85A53A)
+    (at 194.818 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859025) (tstamp 5B85A543)
+    (at 193.294 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85902E) (tstamp 5B85A54C)
+    (at 191.77 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859031) (tstamp 5B85A555)
+    (at 190.246 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85903D) (tstamp 5B85A55E)
+    (at 188.722 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859045) (tstamp 5B85A567)
+    (at 187.198 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85904F) (tstamp 5B85A570)
+    (at 185.674 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859052) (tstamp 5B85A579)
+    (at 184.15 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85905A) (tstamp 5B85A582)
+    (at 182.626 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859061) (tstamp 5B85A58B)
+    (at 181.102 96.266)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858FE9) (tstamp 5B85A594)
+    (at 200.914 90.678)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858FEE) (tstamp 5B85A59D)
+    (at 199.898 91.694)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858FF2) (tstamp 5B85A5A6)
+    (at 198.628 92.456)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858FF6) (tstamp 5B85A5AF)
+    (at 197.866 93.726)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B858FFA) (tstamp 5B85A5B8)
+    (at 196.85 94.742)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85900B) (tstamp 5B85A5C1)
+    (at 195.326 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85901B) (tstamp 5B85A5CA)
+    (at 193.802 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859020) (tstamp 5B85A5D3)
+    (at 192.278 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859029) (tstamp 5B85A5DC)
+    (at 190.754 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859035) (tstamp 5B85A5E5)
+    (at 189.23 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859039) (tstamp 5B85A5EE)
+    (at 187.706 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859041) (tstamp 5B85A5F7)
+    (at 186.182 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85904B) (tstamp 5B85A600)
+    (at 184.658 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859056) (tstamp 5B85A609)
+    (at 183.134 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85905D) (tstamp 5B85A612)
+    (at 181.61 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859064) (tstamp 5B85A61B)
+    (at 180.086 95.25)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A714)
+    (at 149.352 96.012)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A71D)
+    (at 148.082 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A726)
+    (at 146.812 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A748)
+    (at 145.542 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A751)
+    (at 143.764 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A75A)
+    (at 142.24 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A763)
+    (at 140.716 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A76C)
+    (at 139.192 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A775)
+    (at 137.668 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A77E)
+    (at 136.144 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A787)
+    (at 134.62 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A790)
+    (at 133.096 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A799)
+    (at 131.572 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7A2)
+    (at 130.048 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7AB)
+    (at 128.524 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7B9)
+    (at 127 94.234)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7C2)
+    (at 105.664 99.314)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7CB)
+    (at 106.68 98.298)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7D4)
+    (at 108.458 100.838)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7DD)
+    (at 108.204 97.79)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7E6)
+    (at 109.728 97.79)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7EF)
+    (at 111.252 97.79)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A7F8)
+    (at 112.776 97.79)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A801)
+    (at 114.3 97.536)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A80A)
+    (at 116.078 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A813)
+    (at 117.094 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A81C)
+    (at 118.364 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A825)
+    (at 119.634 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A82E)
+    (at 120.904 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A837)
+    (at 122.174 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A840)
+    (at 123.444 98.806)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A849)
+    (at 124.46 98.044)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A852)
+    (at 125.476 97.282)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A85B)
+    (at 127 97.282)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A864)
+    (at 128.524 97.282)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A86D)
+    (at 130.048 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A876)
+    (at 131.572 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A87F)
+    (at 133.096 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A888)
+    (at 134.62 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A891)
+    (at 136.144 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A89A)
+    (at 137.668 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8A3)
+    (at 139.192 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8AC)
+    (at 140.716 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8B5)
+    (at 142.24 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8BE)
+    (at 143.764 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8C7)
+    (at 143.764 98.298)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8D0)
+    (at 142.24 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8D9)
+    (at 140.716 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8E2)
+    (at 139.192 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8EB)
+    (at 118.872 100.33)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8F4)
+    (at 120.396 100.33)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A8FD)
+    (at 121.92 100.33)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A906)
+    (at 123.444 100.076)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A90F)
+    (at 124.714 99.314)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A918)
+    (at 125.984 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A921)
+    (at 127 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A92A)
+    (at 128.524 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A933)
+    (at 130.048 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A93C)
+    (at 131.572 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A945)
+    (at 133.096 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A94E)
+    (at 134.62 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A957)
+    (at 136.144 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A960)
+    (at 137.668 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A969)
+    (at 139.192 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A972)
+    (at 140.716 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A97B)
+    (at 142.24 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A984)
+    (at 143.764 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A98D)
+    (at 145.796 97.282)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A996)
+    (at 147.066 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A99F)
+    (at 145.542 98.806)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9A8)
+    (at 150.876 96.52)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9B1)
+    (at 152.4 96.52)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9BA)
+    (at 149.606 94.488)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9C3)
+    (at 150.876 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9D1)
+    (at 152.146 95.25)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9DA)
+    (at 152.908 98.044)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9E3)
+    (at 153.67 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9EC)
+    (at 152.908 100.838)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9F5)
+    (at 154.432 100.838)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85A9FE)
+    (at 156.718 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AA07)
+    (at 155.194 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AA10)
+    (at 153.924 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AA19)
+    (at 152.654 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AA22)
+    (at 155.702 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AAC0)
+    (at 162.814 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AAC9)
+    (at 161.29 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AAD2)
+    (at 159.766 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AAEA)
+    (at 162.814 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AAF3)
+    (at 161.29 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AAFC)
+    (at 159.766 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB05)
+    (at 158.242 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB0E)
+    (at 159.512 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB17)
+    (at 157.48 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB20)
+    (at 155.956 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB29)
+    (at 154.432 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB32)
+    (at 152.908 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB3B)
+    (at 151.384 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB44)
+    (at 149.86 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB4D)
+    (at 148.336 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB56)
+    (at 146.812 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB5F)
+    (at 145.288 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB68)
+    (at 143.764 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB71)
+    (at 143.764 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB7A)
+    (at 145.288 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB83)
+    (at 146.812 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB8C)
+    (at 148.336 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB95)
+    (at 149.86 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AB9E)
+    (at 151.384 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ABA7)
+    (at 152.908 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ABB0)
+    (at 154.432 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ABB9)
+    (at 155.956 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ABC2)
+    (at 157.48 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F25) (tstamp 5B85ABCB)
+    (at 170.18 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F28) (tstamp 5B85ABD4)
+    (at 171.45 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F2B) (tstamp 5B85ABDD)
+    (at 172.72 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F2F) (tstamp 5B85ABE6)
+    (at 173.99 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F33) (tstamp 5B85ABEF)
+    (at 175.26 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F10) (tstamp 5B85AC0D)
+    (at 169.418 101.346)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F13) (tstamp 5B85AC18)
+    (at 170.688 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F16) (tstamp 5B85AC21)
+    (at 171.958 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F1A) (tstamp 5B85AC2A)
+    (at 173.228 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F1D) (tstamp 5B85AC33)
+    (at 174.498 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F20) (tstamp 5B85AC3C)
+    (at 175.768 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F39) (tstamp 5B85AC45)
+    (at 170.434 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F3C) (tstamp 5B85AC4E)
+    (at 171.704 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F3F) (tstamp 5B85AC57)
+    (at 172.974 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F43) (tstamp 5B85AC60)
+    (at 174.244 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859F52) (tstamp 5B85AC69)
+    (at 175.514 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859ED6) (tstamp 5B85AC72)
+    (at 177.292 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EDA) (tstamp 5B85AC7B)
+    (at 178.562 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EDE) (tstamp 5B85AC84)
+    (at 179.832 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859ECB) (tstamp 5B85AC8D)
+    (at 179.832 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EC7) (tstamp 5B85AC96)
+    (at 178.562 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859ED3) (tstamp 5B85AC9F)
+    (at 177.292 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EB6) (tstamp 5B85ACA8)
+    (at 179.832 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EB3) (tstamp 5B85ACB1)
+    (at 179.832 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EA9) (tstamp 5B85ACBA)
+    (at 179.832 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EBD) (tstamp 5B85ACC3)
+    (at 178.562 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EC1) (tstamp 5B85ACCC)
+    (at 178.562 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EAE) (tstamp 5B85ACD5)
+    (at 178.562 97.282)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859EA5) (tstamp 5B85ACDE)
+    (at 178.816 96.012)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ACF4)
+    (at 149.352 100.33)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ACFD)
+    (at 149.352 101.854)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD06)
+    (at 147.828 101.854)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD0F)
+    (at 147.828 100.33)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD18)
+    (at 146.304 100.33)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD21)
+    (at 146.304 101.854)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD2A)
+    (at 145.034 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD33)
+    (at 143.764 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD3C)
+    (at 142.494 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD45)
+    (at 141.224 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD4E)
+    (at 139.954 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD57)
+    (at 138.684 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD60)
+    (at 137.668 103.124)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD69)
+    (at 137.16 104.394)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AD9C)
+    (at 180.086 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADAA)
+    (at 178.816 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADB3)
+    (at 177.546 105.41)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADBC)
+    (at 177.546 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADC5)
+    (at 178.816 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADCE)
+    (at 180.086 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADD7)
+    (at 180.086 107.95)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADE0)
+    (at 180.086 109.22)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADE9)
+    (at 180.086 110.49)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADF2)
+    (at 178.816 107.95)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85ADFB)
+    (at 178.816 109.22)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE04)
+    (at 178.816 110.49)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE0D)
+    (at 181.356 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE16)
+    (at 182.88 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE24)
+    (at 179.578 111.76)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE2D)
+    (at 180.848 112.268)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE36)
+    (at 182.372 112.268)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE3F)
+    (at 184.404 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE48)
+    (at 185.928 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE51)
+    (at 187.452 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE5F)
+    (at 188.976 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE68)
+    (at 190.5 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE71)
+    (at 192.024 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE7A)
+    (at 193.548 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE83)
+    (at 195.072 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE8C)
+    (at 196.596 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE95)
+    (at 197.866 111.76)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AE9E)
+    (at 199.136 112.776)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEA7)
+    (at 200.152 113.792)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEB0)
+    (at 201.168 114.808)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEB9)
+    (at 202.184 115.824)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEC2)
+    (at 203.2 116.84)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AECB)
+    (at 204.216 117.856)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AED4)
+    (at 205.232 118.872)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEDD)
+    (at 206.502 119.634)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEE6)
+    (at 208.026 119.634)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEEF)
+    (at 208.026 120.904)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AEF8)
+    (at 206.502 120.904)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF01)
+    (at 205.232 120.396)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF0A)
+    (at 203.962 119.634)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF13)
+    (at 202.946 118.618)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF1C)
+    (at 201.93 117.602)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF25)
+    (at 200.914 116.586)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF2E)
+    (at 199.898 115.57)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF37)
+    (at 198.882 114.554)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF45)
+    (at 197.866 113.538)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF4E)
+    (at 196.596 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF57)
+    (at 195.072 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF60)
+    (at 193.548 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF69)
+    (at 192.024 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF72)
+    (at 190.5 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF7B)
+    (at 188.976 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF84)
+    (at 187.452 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF8D)
+    (at 185.928 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85AF96)
+    (at 184.404 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859887) (tstamp 5B85B007)
+    (at 203.2 90.17)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859883) (tstamp 5B85B015)
+    (at 204.216 89.154)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859878) (tstamp 5B85B01E)
+    (at 205.232 88.138)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859871) (tstamp 5B85B027)
+    (at 206.502 87.376)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859875) (tstamp 5B85B030)
+    (at 207.772 87.122)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859856) (tstamp 5B85B039)
+    (at 212.09 82.804)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859852) (tstamp 5B85B042)
+    (at 210.566 82.804)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85984E) (tstamp 5B85B04B)
+    (at 209.042 82.804)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85988D) (tstamp 5B85B0B3)
+    (at 201.93 89.662)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85987F) (tstamp 5B85B0BC)
+    (at 202.946 88.646)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85987C) (tstamp 5B85B0C5)
+    (at 203.962 87.63)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85986D) (tstamp 5B85B0CE)
+    (at 204.978 86.614)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859866) (tstamp 5B85B0D7)
+    (at 206.248 85.852)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85986A) (tstamp 5B85B0E0)
+    (at 207.772 85.598)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85985F) (tstamp 5B85B0EE)
+    (at 207.772 84.074)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B85984A) (tstamp 5B85B0F7)
+    (at 207.772 82.804)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859862) (tstamp 5B85B100)
+    (at 206.502 84.328)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B859843) (tstamp 5B85B109)
+    (at 206.502 82.804)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu)
+      (net 2 GND))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B117)
+    (at 208.026 122.428)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B120)
+    (at 212.852 123.952)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B129)
+    (at 211.328 123.952)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B132)
+    (at 209.804 123.952)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B13B)
+    (at 208.28 123.952)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B144)
+    (at 206.756 122.428)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B14D)
+    (at 207.01 123.698)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B156)
+    (at 212.598 94.488)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B15F)
+    (at 212.598 96.012)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B168)
+    (at 212.598 97.536)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B171)
+    (at 212.598 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B17A)
+    (at 212.598 100.584)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B183)
+    (at 212.598 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B18C)
+    (at 212.598 103.632)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B195)
+    (at 212.598 105.156)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B19E)
+    (at 212.598 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1A7)
+    (at 212.598 108.204)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1B0)
+    (at 212.598 109.728)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1B9)
+    (at 212.598 111.252)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1C2)
+    (at 207.772 90.424)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1CB)
+    (at 208.026 91.948)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1D4)
+    (at 207.01 92.964)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1DD)
+    (at 209.042 94.488)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1E6)
+    (at 209.296 96.012)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1EF)
+    (at 209.296 97.536)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B1F8)
+    (at 209.296 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B201)
+    (at 209.296 100.584)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B20A)
+    (at 209.296 102.108)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B213)
+    (at 209.296 103.632)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B21C)
+    (at 209.296 105.156)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B225)
+    (at 209.296 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B22E)
+    (at 209.296 108.204)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B23C)
+    (at 209.296 109.728)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B245)
+    (at 209.296 111.252)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B24E)
+    (at 208.28 112.268)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B257)
+    (at 207.772 113.792)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B260)
+    (at 207.772 115.062)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B269)
+    (at 208.026 116.586)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B272)
+    (at 206.756 116.078)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B28A)
+    (at 205.74 115.062)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B293)
+    (at 204.724 114.046)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B29C)
+    (at 203.708 113.03)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2A5)
+    (at 202.692 112.014)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2AE)
+    (at 201.676 110.998)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2B7)
+    (at 200.66 109.982)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2C0)
+    (at 199.644 108.966)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2C9)
+    (at 198.628 107.95)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2D2)
+    (at 197.104 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2DB)
+    (at 195.58 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2E4)
+    (at 194.056 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2ED)
+    (at 192.532 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2F6)
+    (at 191.008 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B2FF)
+    (at 189.484 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B308)
+    (at 187.96 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B311)
+    (at 186.436 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B31A)
+    (at 184.912 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B323)
+    (at 183.388 107.696)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B32C)
+    (at 183.388 106.172)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B335)
+    (at 183.134 104.648)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B33E)
+    (at 183.134 103.124)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B347)
+    (at 183.134 101.6)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B350)
+    (at 183.134 100.076)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B359)
+    (at 184.658 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B36C)
+    (at 186.182 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B375)
+    (at 187.706 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B37E)
+    (at 189.23 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B387)
+    (at 190.754 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B390)
+    (at 192.278 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B399)
+    (at 193.802 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3A2)
+    (at 195.326 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3AB)
+    (at 196.85 99.822)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3B4)
+    (at 198.374 99.568)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3BD)
+    (at 199.644 98.552)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3CB)
+    (at 200.66 97.536)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3D4)
+    (at 201.676 96.52)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3DD)
+    (at 202.692 95.504)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3E6)
+    (at 203.708 94.488)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3EF)
+    (at 204.724 93.472)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B3F8)
+    (at 205.74 92.456)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B401)
+    (at 206.756 91.44)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B422)
+    (at 205.994 93.98)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B42B)
+    (at 204.978 94.996)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B434)
+    (at 203.962 96.012)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B43D)
+    (at 208.026 93.726)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B446)
+    (at 207.01 94.742)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B44F)
+    (at 208.026 95.504)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B458)
+    (at 202.946 97.028)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B461)
+    (at 201.93 98.044)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B46A)
+    (at 200.914 99.06)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B473)
+    (at 199.898 100.076)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B47C)
+    (at 198.628 100.838)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B485)
+    (at 197.104 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B48E)
+    (at 195.58 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B497)
+    (at 194.056 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4A0)
+    (at 192.532 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4A9)
+    (at 191.008 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4B2)
+    (at 189.484 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4BB)
+    (at 187.96 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4C4)
+    (at 186.436 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4CD)
+    (at 184.912 101.092)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4D6)
+    (at 184.404 102.362)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4DF)
+    (at 184.404 103.886)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4E8)
+    (at 184.658 105.156)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B4F1)
+    (at 184.912 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B504)
+    (at 186.436 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B50D)
+    (at 187.96 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B516)
+    (at 189.484 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B52B)
+    (at 191.008 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B534)
+    (at 192.532 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B53D)
+    (at 194.056 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B546)
+    (at 195.58 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B54F)
+    (at 197.104 106.426)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B558)
+    (at 198.628 106.68)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B561)
+    (at 199.898 107.442)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B56A)
+    (at 200.914 108.458)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B573)
+    (at 201.93 109.474)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B57C)
+    (at 202.946 110.49)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B585)
+    (at 203.962 111.506)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B58E)
+    (at 204.978 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B597)
+    (at 205.994 113.538)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B5A0)
+    (at 207.01 112.522)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (module buradar:VIA0.6mm (layer F.Cu) (tedit 5B676375) (tstamp 5B85B5A9)
+    (at 208.026 111.252)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA0.6mm (at 0 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.6) (layers *.Cu))
+  )
+
+  (gr_line (start 211.836 81.28) (end 211.582 81.28) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 211.836 83.312) (end 211.836 81.28) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 92.964 124.46) (end 92.964 124.206) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 94.996 124.46) (end 94.996 126.492) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 211.836 126.492) (end 211.074 126.492) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 213.868 123.952) (end 213.868 124.46) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 211.836 124.46) (end 213.868 124.46) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 124.206 126.492) (end 211.074 126.492) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 124.206 126.492) (end 94.996 126.492) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 96.52 81.28) (end 211.582 81.28) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 213.868 123.952) (end 213.868 83.312) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 92.964 124.206) (end 92.964 122.682) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 97.536 126.238) (end 94.996 126.238) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 94.996 124.206) (end 94.996 126.238) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 96.774 85.09) (end 92.964 85.344) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 92.964 85.344) (end 92.964 122.936) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 215.392 81.28) (end 96.52 81.28) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 217.932 123.444) (end 217.932 83.566) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 97.536 126.238) (end 214.884 126.238) (angle 90) (layer Edge.Cuts) (width 0.1))
 
+  (segment (start 135.382 117.602) (end 135.127998 117.602) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 135.127998 117.602) (end 134.665997 117.139999) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 134.365998 116.415736) (end 134.365998 116.84) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 134.365998 116.078002) (end 134.365998 116.415736) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 134.62 115.824) (end 134.365998 116.078002) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 135.702 115.824) (end 134.62 115.824) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 134.665997 117.139999) (end 134.365998 116.84) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 135.636 115.824) (end 134.62 115.824) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 134.365998 116.84) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 144.78 90.932) (end 142.494 88.646) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 142.494 88.646) (end 136.398 88.646) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 152.4 93.218) (end 147.066 93.218) (width 0.25) (layer B.Cu) (net 1))
@@ -2991,12 +7282,53 @@
   (segment (start 110.236 117.602) (end 107.188 120.65) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 135.382 117.602) (end 110.236 117.602) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 108.35 120.65) (end 108.778 120.222) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 135.382 117.602) (end 133.858 117.602) (width 0.25) (layer B.Cu) (net 1))
-  (via (at 133.858 117.602) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
-  (segment (start 133.858 117.602) (end 135.636 115.824) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 135.636 115.824) (end 135.702 115.824) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 110.824 89.916) (end 114.618 89.916) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 114.618 89.916) (end 115.634 90.932) (width 0.25) (layer F.Cu) (net 1) (tstamp 5B85650D))
+  (segment (start 165.028 103.386) (end 164.346 103.386) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 164.346 103.386) (end 163.576 102.616) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 163.576 102.616) (end 164.662948 101.529052) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 164.662948 101.529052) (end 164.10405 101.529052) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 164.10405 101.529052) (end 163.77905 101.204052) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 164.5611 99.822) (end 165.824002 99.822) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 163.77905 101.204052) (end 163.77905 100.60405) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 163.77905 100.60405) (end 164.5611 99.822) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 165.824002 99.822) (end 166.469001 100.466999) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 169.418 106.934) (end 169.418 106.426) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 169.418 106.426) (end 169.672 106.172) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 169.672 106.172) (end 176.53 106.172) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 176.53 106.172) (end 176.53 99.568) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 176.53 99.568) (end 167.368 99.568) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 167.368 99.568) (end 166.469001 100.466999) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 164.084 100.33) (end 161.544 100.33) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 161.29 100.076) (end 158.242001 100.076) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 161.544 100.33) (end 161.29 100.076) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 158.242001 100.076) (end 158.230177 100.087824) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 133.232999 115.963001) (end 133.232999 118.227001) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 133.232999 118.227001) (end 134.973999 118.227001) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 134.973999 118.227001) (end 137.377 115.824) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 137.377 115.824) (end 137.602 115.824) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 158.230177 100.087824) (end 153.173824 100.087824) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 153.173824 100.087824) (end 152.654 99.568) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 152.654 99.568) (end 146.05 99.568) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 146.05 99.568) (end 145.034 100.584) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 145.034 100.584) (end 138.43 100.584) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 138.43 100.584) (end 135.636 103.378) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 135.636 103.378) (end 135.636 105.476) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 108.778 115.57) (end 108.778 114.808) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 108.778 114.808) (end 108.016 114.046) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 105.664 101.854) (end 109.728 101.854) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 106.68 110.998) (end 106.979999 110.698001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 109.728 101.854) (end 114.554 101.854) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 106.979999 110.698001) (end 107.905001 110.698001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 107.905001 110.698001) (end 108.594999 110.008003) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 108.594999 110.008003) (end 108.594999 109.012001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 108.594999 109.012001) (end 108.919999 109.337001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 108.919999 109.337001) (end 109.520001 109.337001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 109.520001 109.337001) (end 109.845001 109.012001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 109.845001 109.012001) (end 109.845001 101.971001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 109.845001 101.971001) (end 109.728 101.854) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 108.016 110.998) (end 106.68 110.998) (width 0.25) (layer F.Cu) (net 2))
+  (via (at 106.68 110.998) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 136.906 99.985002) (end 136.119002 100.772) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 138.039001 98.852001) (end 136.906 99.985002) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 136.906 99.985002) (end 136.906 100.554002) (width 0.25) (layer F.Cu) (net 2))
@@ -3015,10 +7347,9 @@
   (segment (start 130.578 105.156) (end 130.578 102.987) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 134.112 105.476) (end 130.898 105.476) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 130.898 105.476) (end 130.578 105.156) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 107.508 110.998) (end 107.283 110.998) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 108.016 110.998) (end 107.791 110.998) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 105.425 112.856) (end 104.902 112.856) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 108.778 115.57) (end 108.778 115.316) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 108.778 115.316) (end 107.508 114.046) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 106.934 119.06) (end 106.934 119.91) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 103.943001 116.254999) (end 105.136 115.062) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 106.934 119.91) (end 106.562999 120.281001) (width 0.25) (layer F.Cu) (net 2))
@@ -3034,25 +7365,15 @@
   (segment (start 101.406999 116.189999) (end 101.471999 116.254999) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 101.471999 116.254999) (end 103.943001 116.254999) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 105.136 115.062) (end 105.236 115.062) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 169.418 106.934) (end 169.418 106.426) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 176.53 100.466999) (end 166.469001 100.466999) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 169.418 106.426) (end 169.672 106.172) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 169.672 106.172) (end 176.53 106.172) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 176.53 106.172) (end 176.53 100.466999) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 169.51391 104.94691) (end 169.352 105.10882) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 169.352 105.10882) (end 169.352 106.934) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 168.728 104.386) (end 168.953 104.386) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 168.953 104.386) (end 169.51391 104.94691) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 162.814 101.854) (end 164.201001 100.466999) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 166.469001 100.466999) (end 167.378 101.375998) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 164.201001 100.466999) (end 166.469001 100.466999) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 167.378 101.375998) (end 167.378 101.386) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 167.378 101.386) (end 167.378 102.036) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 165.028 103.386) (end 164.346 103.386) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 164.346 103.386) (end 162.814 101.854) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 162.814 101.854) (end 159.996353 101.854) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 149.074353 90.932) (end 125.884 90.932) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 159.996353 101.854) (end 149.074353 90.932) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 158.230177 100.087824) (end 149.074353 90.932) (width 0.25) (layer F.Cu) (net 2) (tstamp 5B859275))
   (segment (start 125.884 90.932) (end 123.634 90.932) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 211 121.601534) (end 185.863534 121.601534) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 175.768 111.506) (end 169.352 111.506) (width 0.25) (layer F.Cu) (net 2) (tstamp 5B85760B))
@@ -3080,8 +7401,8 @@
   (segment (start 110.17 122.174) (end 109.728 121.732) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 109.728 121.732) (end 109.728 120.222) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 104.982 112.776) (end 104.902 112.856) (width 0.25) (layer F.Cu) (net 2) (tstamp 5B85756B))
-  (segment (start 107.508 114.046) (end 107.508 112.522) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 107.508 110.998) (end 107.508 112.522) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 108.016 114.046) (end 108.016 112.522) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 108.016 110.998) (end 108.016 112.522) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 107.938 104.118) (end 107.938 105.168) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 107.938 105.168) (end 107.188 105.918) (width 0.25) (layer F.Cu) (net 2) (tstamp 5B85755B))
   (segment (start 105.388 106.668) (end 106.438 106.668) (width 0.25) (layer F.Cu) (net 2))
@@ -3093,7 +7414,6 @@
   (segment (start 114.554 101.854) (end 114.488 101.854) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 114.488 101.854) (end 113.218 100.584) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 103.378 99.568) (end 105.664 101.854) (width 0.25) (layer B.Cu) (net 2))
-  (segment (start 105.664 101.854) (end 114.554 101.854) (width 0.25) (layer B.Cu) (net 2))
   (via (at 114.554 101.854) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 103.378 96.52) (end 102.282 96.52) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 104.14 96.52) (end 103.378 96.52) (width 0.25) (layer B.Cu) (net 2))
@@ -3135,11 +7455,6 @@
   (segment (start 129.953 102.362) (end 129.728 102.362) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 134.62 113.726) (end 134.62 114.576) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 134.62 114.576) (end 133.232999 115.963001) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 133.232999 115.963001) (end 133.232999 117.902001) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 133.232999 117.902001) (end 133.557999 118.227001) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 133.557999 118.227001) (end 134.973999 118.227001) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 134.973999 118.227001) (end 137.377 115.824) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 137.377 115.824) (end 137.602 115.824) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 135.382 100.997) (end 135.382 100.772) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 129.728 102.362) (end 131.638 102.362) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 129.682 106.994) (end 129.032 106.994) (width 0.25) (layer F.Cu) (net 2))
@@ -3202,23 +7517,23 @@
   (segment (start 213.420001 85.227535) (end 213.420001 90.480033) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 213.420001 90.480033) (end 211.7625 92.137534) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 211.7625 92.137534) (end 211 92.137534) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 109.916 114.046) (end 109.916 114.671) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.703001 116.141999) (end 108.778 117.067) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.916 114.671) (end 109.703001 114.883999) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.703001 114.883999) (end 109.703001 116.141999) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 108.778 117.067) (end 108.778 117.522) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.22 108.712) (end 109.22 110.302) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.22 110.302) (end 109.916 110.998) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 105.41 103.378) (end 105.41 103.886) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 105.41 103.886) (end 105.178 104.118) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 109.22 108.712) (end 109.22 105.946998) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 109.22 105.946998) (end 106.651002 103.378) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 106.651002 103.378) (end 105.41 103.378) (width 0.25) (layer B.Cu) (net 3))
   (via (at 105.41 103.378) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 3))
-  (segment (start 108.438 108.712) (end 108.438 110.253) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 108.438 107.718) (end 108.438 108.712) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 108.438 108.712) (end 109.22 108.712) (width 0.25) (layer F.Cu) (net 3))
   (via (at 109.22 108.712) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 3))
-  (segment (start 109.408 114.046) (end 109.408 114.671) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 109.408 114.671) (end 109.703001 114.966001) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 109.703001 114.966001) (end 109.703001 116.141999) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 109.703001 116.141999) (end 108.778 117.067) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 108.778 117.067) (end 108.778 117.522) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 109.183 110.998) (end 109.408 110.998) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 108.438 110.253) (end 109.183 110.998) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.691 110.998) (end 109.916 110.998) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 104.882 117.38) (end 106.714 117.38) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 106.714 117.38) (end 106.934 117.16) (width 0.25) (layer F.Cu) (net 3) (tstamp 5B857600))
   (segment (start 104.582 123.444) (end 105.432 123.444) (width 0.25) (layer F.Cu) (net 3))
@@ -3230,8 +7545,8 @@
   (segment (start 108.778 117.522) (end 108.778 117.028) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 106.934 117.16) (end 108.416 117.16) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 108.416 117.16) (end 108.778 117.522) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 109.408 112.522) (end 109.408 114.046) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 109.408 110.998) (end 109.408 112.522) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.916 112.522) (end 109.916 114.046) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 109.916 110.998) (end 109.916 112.522) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 108.438 107.718) (end 108.988 107.168) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 105.388 105.158) (end 105.388 104.668) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 105.938 104.118) (end 105.178 104.118) (width 0.25) (layer F.Cu) (net 3))
@@ -3388,11 +7703,12 @@
   (segment (start 133.735 108.458) (end 133.175001 109.017999) (width 0.25) (layer F.Cu) (net 23))
   (segment (start 133.175001 109.017999) (end 133.175001 110.438001) (width 0.25) (layer F.Cu) (net 23))
   (segment (start 129.974 109.22) (end 129.874 109.22) (width 0.25) (layer F.Cu) (net 23))
-  (segment (start 164.592 101.092) (end 164.934 101.092) (width 0.25) (layer F.Cu) (net 24))
-  (segment (start 164.934 101.092) (end 165.878 102.036) (width 0.25) (layer F.Cu) (net 24))
-  (segment (start 165.862 106.68) (end 164.592 105.41) (width 0.25) (layer B.Cu) (net 24))
-  (segment (start 164.592 105.41) (end 164.592 101.092) (width 0.25) (layer B.Cu) (net 24))
-  (via (at 164.592 101.092) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 24))
+  (segment (start 164.404051 101.328315) (end 164.404051 100.904051) (width 0.25) (layer B.Cu) (net 24))
+  (segment (start 164.404051 105.222051) (end 164.404051 101.328315) (width 0.25) (layer B.Cu) (net 24))
+  (segment (start 165.862 106.68) (end 164.404051 105.222051) (width 0.25) (layer B.Cu) (net 24))
+  (segment (start 164.746051 100.904051) (end 164.404051 100.904051) (width 0.25) (layer F.Cu) (net 24))
+  (segment (start 165.878 102.036) (end 164.746051 100.904051) (width 0.25) (layer F.Cu) (net 24))
+  (via (at 164.404051 100.904051) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 24))
   (segment (start 167.452 106.934) (end 166.116 106.934) (width 0.25) (layer F.Cu) (net 24))
   (segment (start 166.116 106.934) (end 165.862 106.68) (width 0.25) (layer F.Cu) (net 24))
   (via (at 165.862 106.68) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 24))
@@ -3500,4 +7816,26 @@
   (segment (start 163.665647 103.886) (end 165.028 103.886) (width 0.25) (layer F.Cu) (net 42))
   (segment (start 156.29 103.886) (end 163.322 103.886) (width 1.4718) (layer F.Cu) (net 42))
 
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5B85909C) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 214.122 83.058) (xy 214.122 124.968) (xy 212.598 126.238) (xy 94.742 126.238) (xy 93.726 124.714)
+        (xy 93.726 98.044) (xy 93.98 83.566) (xy 96.774 81.534) (xy 212.598 81.534)
+      )
+    )
+  )
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5B85909D) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 214.122 82.804) (xy 214.122 124.968) (xy 212.598 126.238) (xy 94.742 126.238) (xy 93.726 124.46)
+        (xy 93.726 84.074) (xy 96.52 81.534) (xy 212.852 81.534)
+      )
+    )
+  )
 )
